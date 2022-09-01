@@ -5,6 +5,9 @@
   <description>The mvp_msgs package</description>
 
   <maintainer email="emircem@uri.edu">Emir Cem Gezer</maintainer>
+  <author email="emircem@uri.edu">Emir Cem Gezer</author>
+  <author email="mzhou@uri.edu">Mingxi Zhou</author>
+  <author email="linzhao@uri.edu">Lin Zhao</author>
 
   <license>GPLv3</license>
 
