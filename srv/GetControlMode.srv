@@ -1,2 +1,2 @@
 ---
-seal_msgs/ControlMode mode
+mvp_msgs/ControlMode mode

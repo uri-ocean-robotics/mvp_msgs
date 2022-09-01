@@ -1,3 +1,3 @@
 string name
 ---
-seal_msgs/HelmState state
+mvp_msgs/HelmState state

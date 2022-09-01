@@ -1,4 +1,4 @@
 string state
 ---
 bool status
-seal_msgs/HelmState state
+mvp_msgs/HelmState state

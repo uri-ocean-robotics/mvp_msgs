@@ -1,1 +1,1 @@
-seal_msgs/ControlMode[] modes
+mvp_msgs/ControlMode[] modes

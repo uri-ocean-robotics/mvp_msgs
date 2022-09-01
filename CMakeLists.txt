@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
 
-project(seal_msgs)
+project(mvp_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   nav_msgs

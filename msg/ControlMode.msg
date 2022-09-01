@@ -14,18 +14,18 @@ int32 DOF_YAW_RATE   = 11
 string name
 int32[] dofs
 
-seal_msgs/PIDgains pid_x
-seal_msgs/PIDgains pid_y
-seal_msgs/PIDgains pid_z
+mvp_msgs/PIDgains pid_x
+mvp_msgs/PIDgains pid_y
+mvp_msgs/PIDgains pid_z
 
-seal_msgs/PIDgains pid_roll
-seal_msgs/PIDgains pid_pitch
-seal_msgs/PIDgains pid_yaw
+mvp_msgs/PIDgains pid_roll
+mvp_msgs/PIDgains pid_pitch
+mvp_msgs/PIDgains pid_yaw
 
-seal_msgs/PIDgains pid_surge
-seal_msgs/PIDgains pid_sway
-seal_msgs/PIDgains pid_heave
+mvp_msgs/PIDgains pid_surge
+mvp_msgs/PIDgains pid_sway
+mvp_msgs/PIDgains pid_heave
 
-seal_msgs/PIDgains pid_roll_rate
-seal_msgs/PIDgains pid_pitch_rate
-seal_msgs/PIDgains pid_yaw_rate
+mvp_msgs/PIDgains pid_roll_rate
+mvp_msgs/PIDgains pid_pitch_rate
+mvp_msgs/PIDgains pid_yaw_rate
