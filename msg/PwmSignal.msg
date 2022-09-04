@@ -21,5 +21,5 @@
 #   Copyright (C) 2022 Smart Ocean Systems Laboratory
 #
 
-std_msgs/Float32 signal
-std_msgs/Int16 channel
+float32 signal
+int16 channel

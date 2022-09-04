@@ -21,6 +21,6 @@
 #   Copyright (C) 2022 Smart Ocean Systems Laboratory
 #
 
-Header header
+std_msgs/Header header
 float64 data
 float64 variance
