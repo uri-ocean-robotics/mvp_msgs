@@ -6,10 +6,10 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   sensor_msgs
   std_msgs
+  geometry_msgs
   dynamic_reconfigure
   actionlib_msgs
 )
-
 file(GLOB MSG_FILES ${CMAKE_CURRENT_SOURCE_DIR}/**/*.msg)
 file(GLOB SRV_FILES ${PROJECT_SOURCE_DIR}/**/*.srv)
 file(GLOB CFG_FILES ${PROJECT_SOURCE_DIR}/**/*.cfg)
