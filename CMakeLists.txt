@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   dynamic_reconfigure
   actionlib_msgs
+  geographic_msgs
 )
 file(GLOB MSG_FILES ${CMAKE_CURRENT_SOURCE_DIR}/**/*.msg)
 file(GLOB SRV_FILES ${PROJECT_SOURCE_DIR}/**/*.srv)
@@ -44,6 +45,7 @@ generate_messages(
     sensor_msgs
     std_msgs
     nav_msgs
+    geographic_msgs
 )
 
 generate_dynamic_reconfigure_options(
@@ -58,4 +60,5 @@ catkin_package(
     dynamic_reconfigure
     actionlib_msgs
     geometry_msgs
+    geographic_msgs
 )
