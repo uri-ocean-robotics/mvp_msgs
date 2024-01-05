@@ -7,6 +7,7 @@ find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(action_msgs REQUIRED)
+find_package(geographic_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 
@@ -39,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     std_msgs
     action_msgs
     nav_msgs
+    geographic_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)

@@ -20,10 +20,12 @@
 #
 #   Copyright (C) 2022 Smart Ocean Systems Laboratory
 #
+#child frame id is included to allow velocity be in a different frame as the header/frame_id
 
 std_msgs/Header header
 string control_mode
 geometry_msgs/Vector3 position
 geometry_msgs/Vector3 orientation
+string child_frame_id
 geometry_msgs/Vector3 velocity
 geometry_msgs/Vector3 angular_rate
