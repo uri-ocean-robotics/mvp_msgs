@@ -27,28 +27,28 @@ int32 DOF_Z          = 2
 int32 DOF_ROLL       = 3
 int32 DOF_PITCH      = 4
 int32 DOF_YAW        = 5
-int32 DOF_SURGE      = 6
-int32 DOF_SWAY       = 7
-int32 DOF_HEAVE      = 8
-int32 DOF_ROLL_RATE  = 9
-int32 DOF_PITCH_RATE = 10
-int32 DOF_YAW_RATE   = 11
+int32 DOF_U         = 6
+int32 DOF_V         = 7
+int32 DOF_W         = 8
+int32 DOF_P         = 9
+int32 DOF_Q         = 10
+int32 DOF_R         = 11
 
 string name
 int32[] dofs
 
-mvp_msgs/PIDgains pid_x
-mvp_msgs/PIDgains pid_y
-mvp_msgs/PIDgains pid_z
+mvp_msgs/PidGains pid_x
+mvp_msgs/PidGains pid_y
+mvp_msgs/PidGains pid_z
 
-mvp_msgs/PIDgains pid_roll
-mvp_msgs/PIDgains pid_pitch
-mvp_msgs/PIDgains pid_yaw
+mvp_msgs/PidGains pid_roll
+mvp_msgs/PidGains pid_pitch
+mvp_msgs/PidGains pid_yaw
 
-mvp_msgs/PIDgains pid_surge
-mvp_msgs/PIDgains pid_sway
-mvp_msgs/PIDgains pid_heave
+mvp_msgs/PidGains pid_u
+mvp_msgs/PidGains pid_v
+mvp_msgs/PidGains pid_w
 
-mvp_msgs/PIDgains pid_roll_rate
-mvp_msgs/PIDgains pid_pitch_rate
-mvp_msgs/PIDgains pid_yaw_rate
+mvp_msgs/PidGains pid_p
+mvp_msgs/PidGains pid_q
+mvp_msgs/PidGains pid_r
