@@ -22,6 +22,7 @@
 #
 
 std_msgs/Header header
+string child_frame_id
 string control_mode
 string[12] behavior
 
