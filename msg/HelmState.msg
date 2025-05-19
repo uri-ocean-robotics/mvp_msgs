@@ -24,3 +24,5 @@
 string name
 string mode
 string[] transitions
+float64 max_duration
+string exit_state
